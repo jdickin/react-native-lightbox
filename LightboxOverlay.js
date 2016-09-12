@@ -215,7 +215,7 @@ var LightboxOverlay = React.createClass({
       );
     }
     return (
-      <Modal visible={isOpen} transparent={true} onRequestClose={()=> console.log("lightbox-closed");}>
+      <Modal visible={isOpen} transparent={true} onRequestClose={()=> console.log("lightbox-closed")}>
         {background}
         {content}
         {header}
